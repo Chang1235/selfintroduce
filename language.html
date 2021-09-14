@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>language</title>
+    <link rel="stylesheet" href="homepage.css">
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+        }
+        .wrap{
+            background-color: #fff;
+            width: 75%;
+            height: 350px;
+        }
+        .title{
+            text-align: center;
+        }
+        .language{
+            margin-top: 10px;
+            display: flex;
+            
+        }
+        .word{
+            margin-left: 15px;
+            width: 100px;
+        }
+        .graph{
+            background-color: #ccc;
+            border-radius: 20px;
+            flex-grow: 1;
+            margin-right:150px;
+            /* width: 100px;
+            height: 40px; */
+        }
+        #html{
+            display: block;
+            width: 90%;
+            background-color: #fff59d;
+            text-align: right;
+            border-radius: 20px;
+            animation:stack 3s 1;
+        }
+        #css{
+            display: block;
+            width: 80%;
+            background-color: #e6ee9c;
+            text-align: right;
+            border-radius: 20px;
+            animation:stack1 2.5s 1;
+        }
+        #js{
+            display: block;
+            width: 80%;
+            background-color: #c5e1a5;
+            text-align: right;
+            border-radius: 20px;
+            animation:stack2 2.5s 1;
+        }
+        #python{
+            display: block;
+            width: 80%;
+            background-color: #a5d6a7;
+            text-align: right;
+            border-radius: 20px;
+            animation:stack3 2.5s 1;
+        }
+        #c{
+            display: block;
+            width: 60%;
+            background-color: #80cbc4;
+            text-align: right;
+            border-radius: 20px;
+            animation:stack4 2.3s 1;
+        }
+        #r{
+            display: block;
+            width: 50%;
+            background-color: #80deea;
+            text-align: right;
+            border-radius: 20px;
+            animation:stack5 2s 1;
+        }
+
+        @keyframes stack{
+            0% {width: 0;}
+            100% {width: 90%;}
+        }
+        @keyframes stack1{
+            0% {width: 0;}
+            100% {width: 80%;}
+        }
+        @keyframes stack2{
+            0% {width: 0;}
+            100% {width: 80%;}
+        }
+        @keyframes stack3{
+            0% {width: 0;}
+            100% {width: 80%;}
+        }
+        @keyframes stack4{
+            0% {width: 0;}
+            100% {width: 60%;}
+        }
+        @keyframes stack5{
+            0% {width: 0;}
+            100% {width: 50%;}
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrap">
+        <div class="title">
+            Available language
+        </div>
+        <div class="language">
+            <div class="word">
+                HTML
+            </div>
+            <div class="graph" >
+                <span id="html">90%</span>
+            </div>
+        </div>
+        <div class="language">
+            <div class="word">
+                CSS
+            </div>
+            <div class="graph" >
+                <span id="css">80%</span>
+            </div>
+        </div>
+        <div class="language">
+            <div class="word">
+                Java Script
+            </div>
+            <div class="graph" >
+                <span id="js">80%</span>
+            </div>
+        </div>
+        <div class="language">
+            <div class="word">
+                Python
+            </div>
+            <div class="graph" >
+                <span id="python">80%</span>
+            </div>
+        </div>
+        <div class="language">
+            <div class="word">
+                C++
+            </div>
+            <div class="graph">
+                <span id="c">60%</span>
+            </div>
+        </div>
+        <div class="language">
+            <div class="word">
+                R
+            </div>
+            <div class="graph" >
+                <span id="r">50%</span>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
